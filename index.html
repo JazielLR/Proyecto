@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pollois - Tienda</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header id="encabezado-principal">
+    <div class="marca">
+      <div class="icono-logo">G</div>
+      <span class="nombre-marca">pollois</span>
+    </div>
+
+    <nav class="menu-navegacion">
+      <a href="index.html" class="enlace-menu activo">Tienda</a>
+      <a href="#" class="enlace-menu">Ofertas</a>
+      <a href="#" class="enlace-menu">Recomendados</a>
+    </nav>
+
+    <div class="lado-derecho-encabezado">
+      <input type="text" class="barra-busqueda" placeholder="Buscar...">
+      <a href="login.html" class="boton-usuario">Entrar</a>
+    </div>
+  </header>
+
+  <main id="contenido-principal">
+    
+    <div class="titulo-seccion">
+      <span>Ofertas</span>
+    </div>
+
+    <!-- Carrusel Sencillo -->
+    <div class="carrusel-contenedor">
+      <button class="flecha flecha-izquierda" onclick="cambiarJuego(-1)">&lt;</button>
+
+      <!-- Juego 1 -->
+      <div class="juego-carrusel activo">
+        <div class="caja-imagen">
+          <img src="css/amungus.jpg" alt="Among Us">
+        </div>
+        <div class="info-juego">
+          <span class="etiqueta">Oferta de la semana</span>
+          <h2>Among Us</h2>
+          <p>Un juego de trabajo en equipo y traición en el espacio.</p>
+          <div class="descuento">Hasta 45% de descuento</div>
+          <button class="boton-accion">Ver oferta</button>
+        </div>
+      </div>
+
+      <!-- Juego 2 -->
+      <div class="juego-carrusel">
+        <div class="caja-imagen">
+          <img src="css/asasin.jpg" alt="Assassin's Creed">
+        </div>
+        <div class="info-juego">
+          <span class="etiqueta">Oferta especial</span>
+          <h2>Assassin's Creed Unity</h2>
+          <p>Vive la Revolución Francesa en una aventura inolvidable.</p>
+          <div class="descuento">Hasta 50% de descuento</div>
+          <button class="boton-accion">Ver oferta</button>
+        </div>
+      </div> <!-- Juego 3 -->
+      <div class="juego-carrusel">
+        <div class="caja-imagen">
+          <img src="css/gta.jpg" alt="Assassin's Creed">
+        </div>
+        <div class="info-juego">
+          <span class="etiqueta">Oferta especial</span>
+          <h2>GTA V</h2>
+          <p>Vive la vida como un ganster.</p>
+          <div class="descuento">Hasta 30% de descuento</div>
+          <button class="boton-accion">Ver oferta</button>
+        </div>
+      </div>
+
+      <!-- Juego 4 -->
+      <div class="juego-carrusel">
+        <div class="caja-imagen">
+          <img src="css/rdr2.jpg" alt="Red Dead Redemption 2">
+        </div>
+        <div class="info-juego">
+          <span class="etiqueta">Destacado</span>
+          <h2>Red Dead Redemption 2</h2>
+          <p>Una épica historia del Lejano Oeste con mundo abierto.</p>
+          <div class="descuento">Hasta 30% de descuento</div>
+          <button class="boton-accion">Ver oferta</button>
+        </div>
+      </div>
+
+      <button class="flecha flecha-derecha" onclick="cambiarJuego(1)">&gt;</button>
+    </div>
+
+    <!-- Sección de Recomendados abajo -->
+    <div class="titulo-seccion">
+      <span>Recomendados</span>
+    </div>
+
+    <div class="red-recomendados">
+      <div class="tarjeta-recomendado">
+        <img src="css/lefo.jpg" alt="Left 4 Dead">
+      </div>
+      <div class="tarjeta-recomendado">
+        <img src="css/gta.jpg" alt="GTA V">
+      </div>
+      <div class="tarjeta-recomendado">
+        <img src="css/roblox.jpg" alt="Roblox">
+      </div>
+    </div>  <div class="titulo-seccion">
+       <div class="titulo-seccion">
+     
+    </div>
+
+    <div class="red-recomendados">
+      <div class="tarjeta-recomendado">
+        <img src="css/rust.jpg" alt="Left 4 Dead">
+      </div>
+      <div class="tarjeta-recomendado">
+        <img src="css/sV.jpg" alt="GTA V">
+      </div>
+      <div class="tarjeta-recomendado">
+        <img src="css/witcher.jpg" alt="Roblox">
+      </div>
+    </div>  <div class="titulo-seccion">
+    </div>
+
+    <div class="red-recomendados">
+      <div class="tarjeta-recomendado">
+        <img src="css/noHuman.jpg" alt="Left 4 Dead">
+      </div>
+      <div class="tarjeta-recomendado">
+        <img src="css/outlas.jpg" alt="GTA V">
+      </div>
+      <div class="tarjeta-recomendado">
+        <img src="css/repo.jpg  " alt="Roblox">
+      </div>
+    </div>  <div class="titulo-seccion">
+    </div>
+
+    <div class="red-recomendados">
+      <div class="tarjeta-recomendado">
+        <img src="css/batman.jpg" alt="Left 4 Dead">
+      </div>
+      <div class="tarjeta-recomendado">
+        <img src="css/blas.jpg" alt="GTA V">
+      </div>
+      <div class="tarjeta-recomendado">
+        <img src="css/doom.jpg" alt="Roblox">
+      </div>
+    </div>  <div class="titulo-seccion">
+      
+    </div>
+
+    <div class="red-recomendados">
+      <div class="tarjeta-recomendado">
+        <img src="css/halo1.jpg" alt="Left 4 Dead">
+      </div>
+      <div class="tarjeta-recomendado">
+        <img src="css/halo3.jpg" alt="GTA V">
+      </div>
+      <div class="tarjeta-recomendado">
+        <img src="css/images.jpg" alt="Roblox">
+
+
+        
+      </div>
+      
+
+    </div>
+
+  </main>
+
+  <script>
+    let juegoActual = 0;
+    const juegos = document.querySelectorAll('.juego-carrusel');
+
+    function cambiarJuego(direccion) {
+      juegos[juegoActual].classList.remove('activo');
+      juegoActual = (juegoActual + direccion + juegos.length) % juegos.length;
+      juegos[juegoActual].classList.add('activo');
+    }
+  </script>
+
+</body>
+</html>
